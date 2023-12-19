@@ -14,11 +14,11 @@ int minValue(std::array<int, 10> listOfNumbers) {
     // initialize min to 100 and set array size to 9
     int min = 100;
 
-    // use a for loop when counter < ARRAY_SIZE
-    for (int counter = 0; counter < listOfNumbers.size(); counter++) {
-        // if list_of_numbers[counter] > min, make listOfNumbers the min
-        if (listOfNumbers[counter] < min) {
-            min = listOfNumbers[counter];
+    // use a for each loop when aNum < listOfNumbers
+    for (int aNum : listOfNumbers) {
+        // if aNum < min, make aNum the min
+        if (aNum < min) {
+            min = aNum;
         }
     }
 
