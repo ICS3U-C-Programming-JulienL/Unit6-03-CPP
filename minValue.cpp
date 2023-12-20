@@ -68,3 +68,4 @@ int main() {
     std::cout << "The minimum value is  "
               << min << std::endl;
 }
+
